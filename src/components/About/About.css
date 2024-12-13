@@ -16,13 +16,13 @@
     width: 100%;
     border-radius: 10px;
 }
-.play-icon{
+/* .play-icon{
     width: 60px;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
-}
+} */
 .about h3{
     font-family: 600;
     font-size: 16px;
@@ -38,3 +38,19 @@
     color: #676767;
     margin-bottom: 15px;
 }
+
+@media (max-width: 800px) {
+    .about {
+        flex-direction: column;
+    }
+    .about-left {
+        flex-basis: 100%;
+        margin: 20px;
+        order: 1; /* Changed to 1 */
+    }
+    .about-right {
+        flex-basis: 100%;
+        order: 2; /* You could omit this as it's the default order */
+    }
+}
+

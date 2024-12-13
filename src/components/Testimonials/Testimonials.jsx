@@ -27,16 +27,9 @@ const slideBackward=()=>{
 
 }
     
-
-    
-
-
-
-
   return (
     <div className='testimonials'>
-        <img src ={next_icon} alt="" className='next-btn' onClick={slideForward}/>
-        <img src ={back_icon} alt="" className='back-btn'  onClick={slideBackward}/>
+       
         <div className="slider">
             <ul ref ={slider}>
                 <li>
@@ -78,42 +71,7 @@ const slideBackward=()=>{
                     </div>
                 </li>
                  <li>
-                    <div className='slide'>
-                        <div className="user-info">
-                            <img src={user_3} alt="" />
-                            <div>
-                                <h3>UMIN</h3>
-                                <span>Wolkite University, Ethiopia</span>
-                            </div>
-                        </div>
-                        <p>Studying at Wolkite University has been a transformative experience that 
-                            exceeded all my expectations. The university's dedicated faculty members not 
-                            only imparted knowledge but also fostered critical thinking and a deep passion for 
-                            learning. The diverse student community provided a rich cultural exchange that broadened
-                             my perspectives. The state-of-the-art facilities and resources offered by Wolkite University 
-                             supported my academic journey and research endeavors. I am grateful for the invaluable skills 
-                             and lifelong friendships I have gained during my time at Wolkite University. It truly is a place
-                              where academic excellence meets personal growth."</p>
-                    </div>
-                </li>
-                 <li>
-                    <div className='slide'>
-                        <div className="user-info">
-                            <img src={user_4} alt="" />
-                            <div>
-                                <h3>Omina Bini</h3>
-                                <span>Wolkite University, Ethiopia</span>
-                            </div>
-                        </div>
-                        <p>Studying at Wolkite University has been a transformative experience that 
-                            exceeded all my expectations. The university's dedicated faculty members not 
-                            only imparted knowledge but also fostered critical thinking and a deep passion for 
-                            learning. The diverse student community provided a rich cultural exchange that broadened
-                             my perspectives. The state-of-the-art facilities and resources offered by Wolkite University 
-                             supported my academic journey and research endeavors. I am grateful for the invaluable skills 
-                             and lifelong friendships I have gained during my time at Wolkite University. It truly is a place
-                              where academic excellence meets personal growth."</p>
-                    </div>
+                   
                 </li>
                 
             </ul>
