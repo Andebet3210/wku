@@ -1,7 +1,7 @@
 import React from 'react';
-import Navbar from './components/navbar/navbar.jsx';
+import Navbar from './components/navbar/Navbar';
 import Hero from './components/Hero/Hero';
-import Programs from './components/Programs/programs';
+import Programs from './components/Programs/Programs';
 import Title from './components/Title/Title';
 import About from './components/About/About';
 import Campus from './components/Campus/Campus';
@@ -13,19 +13,19 @@ const App = () => {
   return (
     <div>
       <Navbar />
-      <Hero/>
+      <Hero />
       <div className="container">
-        <Title subTitle='Our Programs' title ='What we Offer'/>
-      <Programs/>
-      <About/>
-       <Title subTitle='Gallery' title ='Campus Photos'/>
-       <Campus/>
-       <Title subTitle='TESTIMONIALS' title ='What Student Says'/>
-       <Testimonials/>
-       <Title subTitle='Contact Us' title ='Get in Touch'/>
-       <Contact/>
-       <Footer/>
-    </div>
+        <Title subTitle="Our Programs" title="What we Offer" />
+        <Programs />
+        <About />
+        <Title subTitle="Gallery" title="Campus Photos" />
+        <Campus />
+        <Title subTitle="TESTIMONIALS" title="What Student Says" />
+        <Testimonials />
+        <Title subTitle="Contact Us" title="Get in Touch" />
+        <Contact />
+        <Footer />
+      </div>
     </div>
   );
 };
